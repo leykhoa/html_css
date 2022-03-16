@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  width: 100%;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+#menu ul li {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 20px;
+}
+#menu ul li a {
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+  font-family:sans-serif;
+  }
+.menu-right {
+  float: right;
+}
+#banner {
+position: relative;
+width: 100%;
+height: auto;
+font-family: serif;
+color: white;
+margin-top:-15px;
+}
+#banner img {
+width: 100%;
+height: auto;
+}
+#banner h1 {
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 50px;
+  font-family: serif;
+}
+#banner p {
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: 50px;
+  font-family: sans-serif;
+}
+#content {
+background-color: #efefef;
+margin-top: -25px;
+padding: 30px 20px 20px 50px;
+font-family: sans-serif;
+}
+.col1 {
+width: 33%;
+height: auto;
+float: left;
+
+}
+.col2 {
+width: 33%;
+height: auto;
+float: left;
+}
+.col3 {
+width: 33%;
+height: auto;
+float: left;
+}
+.clear {
+  clear: both;
+}
+#footer {
+  background-color: #f6f6f6;
+  padding: 5px 20px 5px 20px;
+  }
+#footer a {
+  text-decoration: none;
+  color:lightseagreen;
+  font-family: sans-serif;
+}
+#footer h4 {
+  text-shadow: 1px 1px;
+  font-family: serif;
+  font-size: 18px;
+}
+#footer p {
+  font-family:sans-serif;
+}
+.travel {
+  width: 30%;
+  float: left;
+  padding:20px;
+  }
+.host {
+  width: 30%;
+  float: left;
+  padding:20px;
+  }
+.trust {
+  width: 30%;
+  float: left;
+  padding:20px;
+  }

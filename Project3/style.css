@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  /* For mobile */
+[class*="col-"] {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #556270;
+    width: 100%;
+    padding: 5%;
+}
+nav ul li {
+    padding: 4px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+nav ul li:hover {
+  background-color:thistle;
+  display: block;
+}
+.menu-left {
+  float: left;
+}
+.menu-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+#banner img {
+    display: none;
+}
+#banner h1 {
+    padding: 5% 5% 0px 5%;
+    font-weight: 900;
+    font-size: 40px;
+}
+#banner p {
+    margin: 5%;
+    width: 90%;
+    padding-bottom: 8%;
+    border-bottom: 1px solid gray;
+}
+#content h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+#content {
+    padding: 0% 5% 0% 5%;
+}
+#album img {
+    padding: 5% 0% 5% 0%;
+}
+.row {
+    width: 100%;
+    height: auto;
+}
+footer {
+    margin: 0 5% 0 5%;
+    width: 90%;
+}
+footer h4 {
+    text-shadow: 1px 1px;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+.left {
+    float: left;
+    padding-bottom: 10%;
+}
+@media only screen and (min-width: 768px) {
+/* For tablets */
+    .col-s-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-s-6 img {
+        padding: 5% 0% 5% 0%;
+    }
+    footer a {
+        color:cornflowerblue;
+    }
+}
+@media only screen and (min-width: 992px) {
+/* For desktop: */
+    nav ul li a {
+        color: gray;
+        padding: 5px;
+    }
+    nav ul {
+        background-color: white;
+        padding: 2% 10% 2% 10%;
+        
+    }
+    #banner {
+        position: relative;
+        margin: 0% 5% 0% 5%;
+        z-index: 1;
+    }
+    #banner img {
+        display: unset;
+        width: 100%;
+        
+    }
+    #banner h1 {
+        position: absolute;
+        z-index: 2;
+        top: 100px;
+        color: white;
+        font-family: garamond;
+        font-weight: 700;
+    }
+    #banner p {
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        color: white;
+        border: hidden;
+    }
+    #content {
+        background-color: #E4E4E4;
+        margin: -5px 5% 0% 5%;
+        padding-top: 5%;
+    }
+    #content h2 {
+        
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .col-4 {
+        width: 33.33%;
+        float: left;
+        padding-right:1%;
+    }
+    footer h4 {
+        font-weight: 600;
+        text-shadow: none;
+    }
+    footer {
+        background-color: #F0F0F0;
+        padding: 2% 5% 2% 5%;
+    }
+}

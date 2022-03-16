@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) {
+/* For tablet */
+    .news img { 
+        width: 30%;
+        max-width: 400px;
+        float:left;
+        padding: 0 10px 10px 0;
+    }
+
+    li a {font-size: 30px;}
+
+    #banner h1 {
+        position: absolute;
+        z-index: 2;
+        top: 220px;
+        color: white;
+        font-family: garamond;
+        font-weight: 600;
+        font-size: 50px;
+    }
+
+    section {padding-top: 45px;}
+
+    section h1 { font-size: 100px;}
+}

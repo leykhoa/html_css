@@ -1,0 +1,88 @@
+#content-blog {
+    margin: auto;
+    max-width: 1000px;
+}
+#content-blog nav ul {
+    max-width: 1000px;
+}
+#main-blog {
+    margin: auto;
+    width: 100%;
+    padding: 7% 5% 5% 5%;
+}
+#main-blog h2 {
+    text-align:center;
+    font-family: 'Allura', cursive;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px;
+}
+#main-blog h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color:darkblue;
+    padding: 15px 0 10px 0;
+}
+#main-blog h4 {
+    font-style:italic;
+    font-size: 18px;
+    font-weight: 500;
+    color:darkslateblue;
+    padding: 10px 0 10px 0;
+}
+#main-blog h5 {
+    text-indent: 20px;
+    font-style:italic;
+    font-size: 15px;
+    font-weight: 400;
+    text-align:justify;
+    padding: 10px 0 10px 0;
+}
+#main-blog h6 {
+    text-indent: 20px;
+    font-style:italic;
+    font-size: 12px;
+    font-weight: 400;
+    text-align:center;
+    padding: 10px;
+}
+#main-blog p {
+    text-indent: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    text-align:justify;
+    padding: 10px 0 10px 0;
+
+}
+#main-blog img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    
+}
+.socials-share {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.socials-share a {
+    padding: 4px 30px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.socials-share span.fa {margin-right: 3px;}
+
+.bg-facebook {background: #3a5899;}
+
+.bg-facebook:hover, .bg-facebook:focus {background: #1d418d;}
+
+.bg-twitter {background: #00acee;}
+
+.bg-twitter:hover, .bg-twitter:focus {background: #0b93c7;}

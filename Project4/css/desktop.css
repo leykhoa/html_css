@@ -1,0 +1,77 @@
+@media only screen and (min-width: 992px) {
+/* For desktop: */
+    nav {
+        text-align: center;
+        
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:gold;
+        min-width: 150px;
+        max-width: 280px !important;
+        z-index: 1;
+        position: fixed;
+        top: 60px;
+    }
+    #main-content h3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0;
+        text-align: left;
+    }
+    #banner {
+        position: relative;
+        padding-top: 5%;
+        z-index: -1;
+    }  
+    #banner h1 {
+        position: absolute;
+        z-index: 2;
+        top: 220px;
+        color: white;
+        font-family: garamond;
+        font-weight: 700;
+        font-size: 70px;
+    }
+    .col-2 {
+        width: 50%;
+        float: left;
+        padding-right:1%;
+        
+    }
+    .col-3 {
+        width: 33.33%;
+        float: left;
+        padding-right:1%;
+        
+    }
+    .news img { 
+        width: 50%;
+        max-width: 600px;
+        float:left;
+        padding: 0 10px 10px 0;
+    }
+    .zoom {
+        width: 20%;
+        height: auto;
+        background:white;
+        transition: width 1s, height 1s;
+        display: block;
+    }
+    .zoom:hover {
+        width: 40%;
+        height: 40%;
+    }
+    footer h4 {
+        font-weight: 600;
+        text-shadow: none;
+    }
+    footer {
+        background-color: #F0F0F0;
+        padding: 2% 5% 2% 5%;
+    }
+    hr {
+        display: none;
+    }
+}

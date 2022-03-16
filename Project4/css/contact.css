@@ -1,0 +1,47 @@
+#contact {
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid midnightblue;
+    display: block;
+    border-radius: 5px;
+}
+#contact h1 {
+    text-align: center;
+    color:midnightblue;
+    font-size: 20px;
+}
+#contact p {
+    padding-bottom: 5px;
+    margin: 0 30px 0 30px;
+    font-weight: 600;
+}
+#set-box {
+    background-color: whitesmoke;
+    width: 310px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 30px 0 30px;
+}
+#area {
+    
+    background-color: whitesmoke;
+    width: 310px;
+    min-height: 100px;
+    border-radius: 5px;
+    margin: 0 30px 0 30px;
+}
+#submit {
+    background-color:lightseagreen;
+    width: 310px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 30px 0 30px;
+}
+#submit:hover {
+    background-color: gray;
+    width: 310px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 30px 0 30px;
+}
